@@ -349,6 +349,40 @@ body {
   }
 }
 
+@media (max-width: 720px) {
+  .navbar-collapse {
+    display: none;
+  }
+
+  .navbar-toggler {
+    display: block;
+  }
+
+  .theme-toggle-btn,
+  .cart-btn,
+  .signin-btn,
+  .signup-btn {
+    display: none;
+  }
+
+  .navbar-brand {
+    flex-grow: 1;
+  }
+
+  .profile-btn {
+    max-width: 200px;
+    justify-content: center;
+  }
+
+  .username {
+    display: block;
+  }
+  .offcanvas {
+    width: 80vw; 
+    max-width: 200px; 
+  }
+}
+
 @media (min-width: 769px) {
   .offcanvas {
     display: none;
