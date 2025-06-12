@@ -359,7 +359,7 @@ const Cart = () => {
             </div>
 
             <div className="col-lg-4">
-              <div className="card bg-dark border-danger shadow-sm sticky-top" style={{ top: '20px' }}>
+              <div className="card bg-dark border-danger shadow-sm ">
                 <div className="card-body">
                   <h3 className="fw-bold mb-4 text-danger">Order Summary</h3>
 
